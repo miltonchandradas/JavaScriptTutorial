@@ -1,11 +1,13 @@
-const myArrowFunction1 = (a, b) => a + b;
-console.log(myArrowFunction1(3, 5));
 
-const myArrowFunction2 = (a, b) => {
-    // Do more complex stuff...
-    return a + b;
-}
-console.log(myArrowFunction2(3, 7));
+
+// const myArrowFunction1 = (a, b) => a + b;
+// console.log(myArrowFunction1(3, 5));
+
+// const myArrowFunction2 = (a, b) => {
+//     // Do more complex stuff...
+//     return a + b;
+// }
+// console.log(myArrowFunction2(3, 7));
 
 // let myArray = [
 //     {
