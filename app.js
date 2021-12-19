@@ -5,6 +5,9 @@ console.log(document.querySelector(".container"));
 // Multiple selector...
 console.log(document.querySelectorAll(".item"));
 
+const items = document.querySelectorAll(".item");
+items.forEach((item) => console.log(item));
+
 // const myArrowFunction1 = (a, b) => a + b;
 // console.log(myArrowFunction1(3, 5));
 
