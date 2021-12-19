@@ -1,1 +1,1 @@
-alert("JavaScript Tutorial...");
+console.log("JavaScript Tutorial...")
