@@ -1,8 +1,26 @@
-let myFunction = function(a, b) {
-    return a + b;
-}
+let myArray = [
+    {
+        id: 1,
+        name: "Milton Chandradas"
+    },
+    {
+        id: 2,
+        name: "Monika Gupta"
+    },
+    {
+        id: 3,
+        name: "Livingstone Chandradas"
+    }
+]
 
-console.log(myFunction(3, 5));
+console.log(myArray);
+
+
+// let myFunction = function(a, b) {
+//     return a + b;
+// }
+
+// console.log(myFunction(3, 5));
 
 // let myObject = {
 //    firstName: `Milton`,
