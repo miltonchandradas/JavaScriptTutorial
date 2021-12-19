@@ -1,20 +1,20 @@
 let myArray = [
-    {
-        id: 1,
-        name: "Milton Chandradas"
-    },
-    {
-        id: 2,
-        name: "Monika Gupta"
-    },
-    {
-        id: 3,
-        name: "Livingstone Chandradas"
-    }
-]
+   {
+      id: 1,
+      name: "Milton Chandradas",
+   },
+   {
+      id: 2,
+      name: "Monika Gupta",
+   },
+   {
+      id: 3,
+      name: "Livingstone Chandradas",
+   },
+];
 
 console.log(myArray);
-
+console.log(myArray[1].name);
 
 // let myFunction = function(a, b) {
 //     return a + b;
