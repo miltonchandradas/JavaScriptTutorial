@@ -1,4 +1,9 @@
+// Single selector...
+console.log(document.getElementById("my-form"));
+console.log(document.querySelector(".container"));
 
+// Multiple selector...
+console.log(document.querySelectorAll(".item"));
 
 // const myArrowFunction1 = (a, b) => a + b;
 // console.log(myArrowFunction1(3, 5));
