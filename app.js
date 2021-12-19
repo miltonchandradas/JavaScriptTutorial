@@ -1,20 +1,29 @@
-let myArray = [
-    {
-        id: 1,
-        name: "Milton Chandradas"
-    },
-    {
-        id: 2,
-        name: "Monika Gupta"
-    },
-    {
-        id: 3,
-        name: "Livingstone Chandradas"
-    }
-]
+const myArrowFunction1 = (a, b) => a + b;
+console.log(myArrowFunction1(3, 5));
 
-console.log(myArray);
+const myArrowFunction2 = (a, b) => {
+    // Do more complex stuff...
+    return a + b;
+}
+console.log(myArrowFunction2(3, 7));
 
+// let myArray = [
+//     {
+//         id: 1,
+//         name: "Milton Chandradas"
+//     },
+//     {
+//         id: 2,
+//         name: "Monika Gupta"
+//     },
+//     {
+//         id: 3,
+//         name: "Livingstone Chandradas"
+//     }
+// ]
+
+// console.log(myArray);
+// console.log(myArray[1].name);
 
 // let myFunction = function(a, b) {
 //     return a + b;
