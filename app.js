@@ -1,11 +1,23 @@
-const items = document.querySelector(".items");
+const btn = document.querySelector(".btn");
+btn.addEventListener("click", (e) => {
+   e.preventDefault();
+   console.log("Button was clicked...");
+   console.log(e);
+   console.log(e.target.className);
+
+   document.querySelector("#my-form").style.background = "yellow";
+   document.querySelector(".items").lastElementChild.innerHTML =
+      "<h1>Hello</h1>";
+});
+
+// const items = document.querySelector(".items");
 // Uncomment each line...
 // items.remove();
 // items.lastElementChild.remove();
 // items.firstElementChild.textContent = "Hello...";
 
-const btn = document.querySelector(".btn");
-btn.style.background = "red";
+// const btn = document.querySelector(".btn");
+// btn.style.background = "red";
 
 // Single selector...
 // console.log(document.getElementById("my-form"));
