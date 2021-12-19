@@ -1,12 +1,25 @@
-let myNumber = 3;
-let myString = `Milton`;
-let myBoolean = true;
-let myNull = null;
-let myUndefined;
+let myObject = {
+   firstName: `Milton`,
+   lastName: `Chandradas`,
+   age: 47,
+   employed: true,
+};
 
+console.log(myObject);
+console.log(myObject.firstName);
 
-console.log(myNumber);
-console.log(myString);
-console.log(myBoolean);
-console.log(myNull);
-console.log(myUndefined);
+let myArray = ["Milton", "Chandradas", 47, true];
+console.log(myArray);
+console.log(myArray[0]);
+
+// let myNumber = 3;
+// let myString = `Milton`;
+// let myBoolean = true;
+// let myNull = null;
+// let myUndefined;
+
+// console.log(myNumber);
+// console.log(myString);
+// console.log(myBoolean);
+// console.log(myNull);
+// console.log(myUndefined);
