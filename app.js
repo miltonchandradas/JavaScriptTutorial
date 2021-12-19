@@ -1,16 +1,22 @@
-let myObject = {
-   firstName: `Milton`,
-   lastName: `Chandradas`,
-   age: 47,
-   employed: true,
-};
+let myFunction = function(a, b) {
+    return a + b;
+}
 
-console.log(myObject);
-console.log(myObject.firstName);
+console.log(myFunction(3, 5));
 
-let myArray = ["Milton", "Chandradas", 47, true];
-console.log(myArray);
-console.log(myArray[0]);
+// let myObject = {
+//    firstName: `Milton`,
+//    lastName: `Chandradas`,
+//    age: 47,
+//    employed: true,
+// };
+
+// console.log(myObject);
+// console.log(myObject.firstName);
+
+// let myArray = ["Milton", "Chandradas", 47, true];
+// console.log(myArray);
+// console.log(myArray[0]);
 
 // let myNumber = 3;
 // let myString = `Milton`;
